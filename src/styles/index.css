@@ -10,3 +10,27 @@
     import 'relative/path/to/stylesheet.scss';
 
 */
+
+section{
+    max-width: 500px;
+    margin: auto;
+    
+}
+h1{
+    text-align: center;
+}
+ul{
+    list-style-type: none;
+    padding: 0px;
+    margin-top : 10px;
+}
+ul li{
+    border: 0.5px solid #000; /* Borde sólido de 2 píxeles de grosor */
+    padding: 10px; /* Añade espacio interior */
+    margin: 5px 0; /* Añade espacio entre los elementos de la lista */
+    text-decoration: none;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
